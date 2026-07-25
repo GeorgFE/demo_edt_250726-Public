@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d2f34a4-8543-4100-a553-0e00d9ba6667">
+  <producedTypes>
+    <objectType typeId="2b19fe10-0ce6-411d-8ab8-0dc020300ecd" valueTypeId="9413d0e2-3992-4ee8-882e-3f1990fc91d4"/>
+    <refType typeId="fe86554c-0081-46b7-b875-33f3c8315244" valueTypeId="5907070f-8bb9-460e-a0c5-88d426a7e5ec"/>
+    <selectionType typeId="c0ff3b43-3677-406a-b4e9-a87368a59f53" valueTypeId="d098d4df-62fd-43d5-b217-9592159d3045"/>
+    <listType typeId="7d60046e-f6cf-425d-963a-d5458dff1dc0" valueTypeId="b8a4d338-3f7b-4358-b232-c30195ee06cf"/>
+    <managerType typeId="ad877b8a-5fd6-43eb-845e-af1533a23e42" valueTypeId="c997e33a-c103-4167-ba13-33202448f515"/>
+  </producedTypes>
+  <name>ПриходНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="8db1344a-5c7d-4fa4-bb7c-d0ff13dc8b5a">
+    <producedTypes>
+      <objectType typeId="94d96063-5f65-4eee-9704-0d70fda60f62" valueTypeId="02ecd330-bf55-4e3e-a637-f6c38a5a4fd7"/>
+      <rowType typeId="8d0b867e-078f-47bf-8cbd-dd11e915484a" valueTypeId="7ecb1e22-b53b-470d-86fd-c528486fe41c"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="449a120d-9a1a-48c8-bc04-ad0e9a0191a1">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </attributes>
+    <attributes uuid="9e2932e1-d7f8-404c-b0a1-9ae375275d6e">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
+</mdclass:Document>

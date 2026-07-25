@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3e0dd3c-4a19-4df8-a28a-5771a03f1829">
+  <producedTypes>
+    <objectType typeId="fa263969-9755-43be-a3e8-2be0ceef99ba" valueTypeId="339695fc-e92a-43a4-9bc5-fd0e3a0d8f93"/>
+    <managerType typeId="5041d234-8e76-461c-80bd-69efc67eb24f" valueTypeId="b4291a61-794c-47fa-a070-2f70c13d7d43"/>
+  </producedTypes>
+  <name>ОстаткиНомнклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номнклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

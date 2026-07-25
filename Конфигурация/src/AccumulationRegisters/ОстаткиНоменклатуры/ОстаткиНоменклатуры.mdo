@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf0cd88-31cb-4f53-a16e-dd33610612e7">
+  <producedTypes>
+    <selectionType typeId="b33a0339-3414-4547-a4c8-f6f47500d4ae" valueTypeId="7593ca96-a15d-4d43-8317-1965f4e910e9"/>
+    <listType typeId="337b1fe9-6f7b-458f-80e0-407b83fc427c" valueTypeId="c7fce8b1-89e6-4112-8583-3b931a2bf26a"/>
+    <managerType typeId="e82b65ef-d761-43a1-ba3e-3c5de83b5bbf" valueTypeId="813e65bd-dccb-458d-b9f0-858b0c0847ed"/>
+    <recordSetType typeId="9b941505-50b0-4ed0-b084-063c1fbeb6f1" valueTypeId="e9feec0e-5b4c-4d22-8971-febc1869eeaf"/>
+    <recordKeyType typeId="bd3e6dd5-d7bb-49e6-8712-9703edbb8718" valueTypeId="68b72206-c178-42f5-9bdb-68c388ee933a"/>
+    <recordType typeId="e65ef0e6-fc78-441c-88fd-3ad53c4cbaa7" valueTypeId="2a0bbff8-a797-4f19-b24f-14e4641cc1fb"/>
+  </producedTypes>
+  <name>ОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <registerType>Balance</registerType>
+  <dimensions uuid="e8f3a2b1-5c4d-4e6f-8a7b-9c0d1e2f3a4b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+  </dimensions>
+  <resources uuid="f1a2b3c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+</mdclass:AccumulationRegister>
