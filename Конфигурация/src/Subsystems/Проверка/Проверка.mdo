@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31897b68-ce10-4a9b-9d7b-4f90849eee37">
+  <name>Проверка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ОстаткиНоменклатуры</content>
+  <content>Document.ПриходНоменклатуры</content>
+  <content>Catalog.Номенклатура</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+</mdclass:Subsystem>

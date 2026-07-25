@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Проверка</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПриходНоменклатуры</documents>
   <reports>Report.ОстаткиНоменклатуры</reports>
